@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Áudio e vídeo</title>
+    <title>Fornulario</title>
 </head>
 <body>
-    <Header><h1>Curso de <i> HTML </i></h1></Header>
+    <header>
+        <h1>Curso de Html</h1>
+    </header>
     <nav>
-        <a href="Index.html">index</a><br>
+        <a href="Index.html">Index</a><br>
         <a href="Sobremim.html">Sobre mim</a><br>
         <a href="Contatos.html">Contatos</a><br>
         <a href="listas.html">listas</a><br>
         <a href="Imagens.html">Imagens</a><br>
+        <a href="Audio e videos.html">Audio e Videos</a><br>
         <a href="barra de carregamentos.html">Barra de carregamentos</a><br>
         <a href="Atividade preferida.html">Atvidade Preferida</a><br>
         <a href="Filme.html">Filme</a><br>
@@ -21,17 +24,20 @@
          <a href="Tabelas.html">Tabelas</a><br>
          <a href="Contatos telefonicos.html">Contatos telefonicos</a><br>
          <a href="Previsao do tempo.html">Previsão do tempo</a><br>
-         <a href="Formulario.html">Formulario</a><br>
-         <a href="Formulario.html">Formulario</a><br>
-        </nav>
-    <Section>
-        <h2>àudio e Vídeo</h2>
-        <audio src="Audios/music.mp3"controls></audio><br>
-        <video src="Videos/video.mp4"controls width="50%"></video>
-    </Section>
+         
+    </nav>
+    <section>
+        <h2>Formulario</h2>
+        <form action="#" method="post">
+            Nome: <input type="text" name="nome" placeholder="Informe seu nome" value="Joana" required>
+            Email: <input type="text" name="email">
+            Cpf:<input type="text" name="CPF" maxlength="14" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}\-[0-9]{2}">
+            Senha:<input type="password" name="senha" value="00000000">
+            Endereço: <textarea name="endereço" id="" cols="20" rows="5">Manaus AM</textarea>
+        </form>
+    </section>
     <footer>
         marcospaulords89@gmail.com
     </footer>
-    <!--Comentarrios-->
 </body>
 </html>
